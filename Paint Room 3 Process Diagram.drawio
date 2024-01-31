@@ -1,9 +1,101 @@
-<mxfile host="app.diagrams.net" modified="2024-01-31T16:54:36.702Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" version="23.0.2" etag="lfm2iL43THKynbhxlKqP" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-31T20:22:25.447Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="xltbwnIqOnwfzulaNbOR" version="23.0.2" type="github">
   <diagram name="Page-1" id="R1S9r6APVr34EcUZnX9l">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="l-1WB-ANf6VAuvYbLzwc-2" value="&lt;div&gt;Height,&lt;/div&gt;&lt;div&gt;Room Length,&lt;/div&gt;&lt;div&gt;Room Depth,&lt;/div&gt;&lt;div&gt;Closet Length,&lt;/div&gt;&lt;div&gt;Closet Depth&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="30" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="l-1WB-ANf6VAuvYbLzwc-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l-1WB-ANf6VAuvYbLzwc-4" target="l-1WB-ANf6VAuvYbLzwc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-1WB-ANf6VAuvYbLzwc-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l-1WB-ANf6VAuvYbLzwc-6" target="l-1WB-ANf6VAuvYbLzwc-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-1WB-ANf6VAuvYbLzwc-6" value="Sqft Per Gallon is 400" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l-1WB-ANf6VAuvYbLzwc-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l-1WB-ANf6VAuvYbLzwc-8" target="l-1WB-ANf6VAuvYbLzwc-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-1WB-ANf6VAuvYbLzwc-8" value="Set Lengthwise Area to Room Length x Height x 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l-1WB-ANf6VAuvYbLzwc-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l-1WB-ANf6VAuvYbLzwc-10" target="l-1WB-ANf6VAuvYbLzwc-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-1WB-ANf6VAuvYbLzwc-10" value="Set Depthwise Area to Room Depth x Height x 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l-1WB-ANf6VAuvYbLzwc-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l-1WB-ANf6VAuvYbLzwc-12" target="l-1WB-ANf6VAuvYbLzwc-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-1WB-ANf6VAuvYbLzwc-12" value="Set Main Area to Length Area + Depthwise Area " style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l-1WB-ANf6VAuvYbLzwc-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l-1WB-ANf6VAuvYbLzwc-14" target="l-1WB-ANf6VAuvYbLzwc-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-1WB-ANf6VAuvYbLzwc-14" value="Set Lengthwise Area to Closet Length x Height x 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l-1WB-ANf6VAuvYbLzwc-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l-1WB-ANf6VAuvYbLzwc-16" target="l-1WB-ANf6VAuvYbLzwc-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-1WB-ANf6VAuvYbLzwc-16" value="Set Depthwise Area to Closet Depth x Height x 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="57.5" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l-1WB-ANf6VAuvYbLzwc-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l-1WB-ANf6VAuvYbLzwc-18" target="l-1WB-ANf6VAuvYbLzwc-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-1WB-ANf6VAuvYbLzwc-18" value="Set Closet Area to Lengthwise Area + Depthwise Area" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="57.5" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l-1WB-ANf6VAuvYbLzwc-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l-1WB-ANf6VAuvYbLzwc-20" target="l-1WB-ANf6VAuvYbLzwc-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-1WB-ANf6VAuvYbLzwc-20" value="Set Total Area to Main Area + Closet&amp;nbsp; Area" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="57.5" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l-1WB-ANf6VAuvYbLzwc-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l-1WB-ANf6VAuvYbLzwc-22" target="l-1WB-ANf6VAuvYbLzwc-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-1WB-ANf6VAuvYbLzwc-22" value="Set New Total Area to Total Area subtract (Main Door + Closet Door Area + Window Area)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1190" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l-1WB-ANf6VAuvYbLzwc-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l-1WB-ANf6VAuvYbLzwc-24" target="l-1WB-ANf6VAuvYbLzwc-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-1WB-ANf6VAuvYbLzwc-24" value="Set Complete Total Area to New Total Area x 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="52.5" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l-1WB-ANf6VAuvYbLzwc-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="l-1WB-ANf6VAuvYbLzwc-26" target="l-1WB-ANf6VAuvYbLzwc-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l-1WB-ANf6VAuvYbLzwc-26" value="Set Gallon of Paint to Complete Total Area divided by Sqft Per Gallon (rounded up)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="47.5" y="1460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l-1WB-ANf6VAuvYbLzwc-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l-1WB-ANf6VAuvYbLzwc-28" target="l-1WB-ANf6VAuvYbLzwc-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-1WB-ANf6VAuvYbLzwc-28" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="57.5" y="1580" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l-1WB-ANf6VAuvYbLzwc-29" value="Gallons of Paint" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="52.5" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l-1WB-ANf6VAuvYbLzwc-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l-1WB-ANf6VAuvYbLzwc-2" target="l-1WB-ANf6VAuvYbLzwc-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="215" as="targetPoint" />
+            <mxPoint x="105" y="130" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l-1WB-ANf6VAuvYbLzwc-4" value="Start" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="70" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
