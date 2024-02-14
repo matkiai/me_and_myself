@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-14T21:00:05.532Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="Xs9vn_h4Utp75Iw_ZIFx" version="23.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-14T21:10:38.106Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="ef3yloU6XVv_0H4TkWV6" version="23.1.4" type="github">
   <diagram name="Page-1" id="zY0mLcmvpDzbfV66CibP">
     <mxGraphModel dx="1434" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -56,8 +56,39 @@
         <mxCell id="0r4grzwR4e4F5FuuQjWl-20" value="Flip Top Card" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="210" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="0r4grzwR4e4F5FuuQjWl-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0r4grzwR4e4F5FuuQjWl-22" target="0r4grzwR4e4F5FuuQjWl-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0r4grzwR4e4F5FuuQjWl-22" value="Flip Top Card" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0r4grzwR4e4F5FuuQjWl-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0r4grzwR4e4F5FuuQjWl-24" target="0r4grzwR4e4F5FuuQjWl-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0r4grzwR4e4F5FuuQjWl-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0r4grzwR4e4F5FuuQjWl-24" target="0r4grzwR4e4F5FuuQjWl-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0r4grzwR4e4F5FuuQjWl-33" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0r4grzwR4e4F5FuuQjWl-29">
+          <mxGeometry x="-0.3778" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0r4grzwR4e4F5FuuQjWl-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0r4grzwR4e4F5FuuQjWl-24" target="0r4grzwR4e4F5FuuQjWl-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0r4grzwR4e4F5FuuQjWl-32" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0r4grzwR4e4F5FuuQjWl-30">
+          <mxGeometry x="-0.3667" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0r4grzwR4e4F5FuuQjWl-24" value="Higher or Lower" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="780" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0r4grzwR4e4F5FuuQjWl-26" value="Win" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0r4grzwR4e4F5FuuQjWl-28" value="Lose" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="950" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
